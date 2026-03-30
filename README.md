@@ -9,7 +9,7 @@ Built with modern technologies, DevTinder ensures **secure authentication, real-
 ## 🚀 Live Demo
 
 * 🌐 Frontend: https://get-devtinder.vercel.app/feed
-* ⚙️ Backend Repo: https://github.com/Dhruvang0011/devTinder-backend
+* ⚙️ Backend Repo: h[ttps://github.com/Dhruvang0011/devTinder-backend](https://devtinder-backend-dgi8.onrender.com)
 
 ---
 
