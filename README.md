@@ -1,4 +1,4 @@
-# 🎨 DevTinder Frontend
+# 👨🏻‍💻 DevTinder Frontend
 
 This is the **frontend** of DevTinder — a full-stack developer networking platform where users can explore profiles, connect, and chat in real-time.
 
