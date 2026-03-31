@@ -58,10 +58,9 @@ Make sure to update your API base URL in your code.
 
 ```
 src
- ├── components
- ├── pages
- ├── redux
- ├── utils
+ ├── components 
+ ├── index.css
+ └── main.jsx
 ```
 
 ---
