@@ -1,106 +1,79 @@
-👨🏻‍💻 DevTinder
+# 👨🏻‍💻 DevTinder Frontend
 
-DevTinder is a full-stack web application designed to help developers connect, interact, and build professional relationships. The platform allows users to create profiles, explore other developers, and engage in real-time conversations through an integrated chat system.
+This is the **frontend** of DevTinder — a full-stack developer networking platform where users can explore profiles, connect, and chat in real-time.
 
-Built using modern web technologies, DevTinder ensures a smooth user experience, secure authentication, and scalable backend architecture.
+---
 
-🔗 Live Application: https://get-devtinder.vercel.app/feed
+## 🚀 Live Demo
 
-🔗 Backend : https://github.com/Dhruvang0011/devTinder-backend
+🌐 https://get-devtinder.vercel.app
 
-🌟 Key Features
+---
 
-🔐 Secure Authentication System
-JWT-based login and registration with protected routes.
+## ✨ Features
 
-👤 User Profile Management
-Create, update, and manage developer profiles.
+* 🔐 User Authentication (Login / Signup UI)
+* 👤 Profile Management UI
+* 🔎 Browse & Search Developers
+* 💬 Real-Time Chat Interface
+* 🌐 Fully Responsive Design
+* ⚡ Fast & Optimized Performance
 
-🔎 Smart Search Functionality
-Find and connect with other developers easily.
+---
 
-💬 Real-Time Chat System
-Instant messaging powered by Socket.io for seamless communication.
+## 🛠️ Tech Stack
 
-📦 RESTful API Architecture
-Clean and modular backend structure.
+* React.js
+* Redux Toolkit
+* React Router DOM
+* Axios
+* Tailwind CSS
 
-🌐 Responsive UI
-Optimized for mobile, tablet, and desktop devices.
+---
 
-⚡ Optimized Performance
-Efficient state management using Redux Toolkit.
+## ⚙️ Installation & Setup
 
-🛠️ Tech Stack
-🎨 Frontend
+```bash
+git clone https://github.com/Dhruvang0011/devTinder.git
+cd devTinder
+npm install
+npm run dev
+```
 
-React.js
+---
 
-Redux Toolkit
+## 🔗 API Integration
 
-React Router DOM
+This frontend connects to the backend API:
 
-Axios
+```text
+https://devtinder-backend-dgi8.onrender.com
+```
 
-Tailwind CSS
+Make sure to update your API base URL in your code.
 
-⚙️ Backend
+---
 
-Node.js
+## 📁 Folder Structure
 
-Express.js
+```
+src
+ ├── components
+ ├── pages
+ ├── redux
+ ├── utils
+```
 
-MongoDB
+---
 
-Mongoose
+## ⚠️ Important Notes
 
-Socket.io
+* Backend must be running for full functionality
+* Update API base URL before deployment
+* Do not expose sensitive data
 
-JSON Web Token (JWT)
+---
 
-☁️ Deployment & Hosting
+## ⭐ Support
 
-Frontend: Vercel
-
-Backend: Render
-
-Database: MongoDB Atlas
-
-🏗️ Architecture Overview
-
-The application follows a modern client-server architecture:
-
-The frontend handles UI rendering and state management.
-
-The backend manages authentication, user data, conversations, and real-time communication.
-
-MongoDB stores user profiles, messages, and conversation data.
-
-Socket.io enables live, bidirectional communication between users.
-
-This separation ensures scalability, maintainability, and easy future enhancements.
-
-🔐 Environment Variables
-
-The following environment variables are used in the backend:
-
-Variable	Description
-MONGO_URI	MongoDB connection string
-JWT_SECRET	Secret key for token generation
-CLIENT_URL	Frontend application URL
-
-📌 Project Highlights
-
-Clean and modular folder structure
-
-Real-time communication implementation
-
-Secure authentication flow
-
-Production-ready deployment
-
-Portfolio-grade full-stack architecture
-
-📜 License
-
-This project is open-source and available under the MIT License.
+If you like this project, give it a ⭐!
