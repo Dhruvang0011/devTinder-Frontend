@@ -10,7 +10,7 @@ const Login = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const user = useSelector((store) => store.user)
+  const user = useSelector((store) => store.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -22,7 +22,7 @@ const Login = () => {
       const res = await axios.post(
         `${import.meta.env.VITE_API_URL}/login`,
         { emailId, password },
-        { withCredentials: true }
+        { withCredentials: true },
       );
 
       dispatch(addUser(res.data.user || res.data));
@@ -31,7 +31,7 @@ const Login = () => {
       setErrorMessage(
         err?.response?.data?.message ||
           err?.response?.data ||
-          "Invalid Credentials!"
+          "Invalid Credentials!",
       );
     } finally {
       setLoading(false);
@@ -45,13 +45,12 @@ const Login = () => {
   };
 
   if (user) {
-  return <Navigate to="/feed" replace />;
-}
+    return <Navigate to="/feed" replace />;
+  }
 
   return (
     <div className="w-full flex items-center justify-center px-4 sm:px-6 md:px-0 py-24">
       <div className="w-full max-w-md bg-neutral-900/70 backdrop-blur-md shadow-2xl rounded-3xl p-6 sm:p-8">
-
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
           Login to DevTinder
         </h2>
@@ -111,7 +110,6 @@ const Login = () => {
             Sign Up
           </Link>
         </p>
-
       </div>
     </div>
   );
